@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "section-dummy"
+      "type": "main-404"
     }
   },
   "order": ["main"]
