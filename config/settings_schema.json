@@ -1,0 +1,21 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "NewWave",
+    "theme_version": "0.1.0",
+    "theme_author": "Ramon",
+    "theme_documentation_url": "https://help.ramontilman.com",
+    "theme_support_url": "https://support.ramontilman.com/"
+  },
+  {
+    "name": "General",
+    "settings": [
+      {
+        "type": "color",
+        "id": "body_text",
+        "label": "Body text",
+        "default": "#000000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+<section>
+    <h1>{{ section.settings.dummy_text }}</h1>
+</section>
+
+{% comment %} Inside of the schema we can add the JSON for shopify to recognise it as a section and add the necessary settings {% endcomment %}
+{% schema %}
+    {
+        "name": "Dummy section",
+        "settings": [
+            {
+                "type" : "text",
+                "id" : "dummy_text",
+                "label" : "Dummy Text",
+                "default" : "This is a dummy text"
+            }
+        ]
+    }
+{% endschema %}
