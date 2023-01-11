@@ -1,0 +1,15 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_background": "#de5454"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

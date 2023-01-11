@@ -7,6 +7,9 @@
         <title>Document</title>
         {{ content_for_header }}
 
+        {% comment %} include the header section {% endcomment %}
+        {% section 'header' %}
+
         {{ 'base.css' | asset_url | stylesheet_tag }}
     </head>
     <body>

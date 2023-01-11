@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="{{ 'header.css' | asset_url }}">
+<div class="header-container">
+    {% for link in linklists.main-menu.links %}
+        <li class="header-links">
+            <ul class="header-link"><a href="{{ link.url }}" class="header-link">{{ link.title }}</a></ul>
+        </li>   
+    {% endfor %}
+</div>
+
+<style>
+    .header-container {
+        background-color: {{ settings.header_background }};
+    }
+</style>
+
+{% comment %} TODO Header setting is not working... where to put it to make it work? {% endcomment %}
+{% schema %}
+    {
+        "name": "Header section",
+        "class": "section-header",
+        "settings": [
+            {
+                "type": "color",
+                "id": "header_background",
+                "label": "Header Background",
+                "default": "#000000"
+            }
+        ]
+    }
+{% endschema %}
